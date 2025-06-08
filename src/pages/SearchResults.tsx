@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { Search, MapPin, Building2, Heart, MessageCircle, ExternalLink } from 'lucide-react';
@@ -96,7 +95,7 @@ const SearchResults = () => {
             <div className="w-8 h-8 bg-yellow rounded-lg flex items-center justify-center">
               <span className="font-bold text-black text-sm">RL</span>
             </div>
-            <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
+            <h1 className="text-2xl font-extrabold text-gray-900 dark:text-white">
               Refer and Land
             </h1>
           </div>
